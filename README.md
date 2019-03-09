@@ -1,2 +1,2 @@
 # Crowd-Copter
-Graduation Project
+# This Project is developed for Hajj Hackathon
