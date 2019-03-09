@@ -1,5 +1,15 @@
 # Crowd-Copter
 
+[![Apache](https://img.shields.io/badge/License-Apache--2.0-red.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Flight Stack](https://img.shields.io/badge/Flight%20Stack-CleanFlight-green.svg)](http://cleanflight.com/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-3.4-red.svg)](https://pypi.org/project/opencv-python/)
+[![Python](https://img.shields.io/badge/Python-3.6-red.svg)](https://docs.python.org/release/3.6/)
+[![Numpy](https://img.shields.io/badge/Numpy-1.11.0-informational.svg)](https://pypi.org/project/numpy/)
+[![PyQt](https://img.shields.io/badge/Qt-PyQt-ff69b4.svg)](https://wiki.python.org/moin/PyQt)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-2.0-important.svg)](https://matplotlib.org/)
+[![Pandas](https://img.shields.io/badge/pandas-0.19-blue.svg)](http://pandas.pydata.org)
+[![Coherent Filter](https://img.shields.io/badge/Motion%20Detector-Coherent%20Filter-blueviolet.svg)](http://mmlab.ie.cuhk.edu.hk/projects/coherentfiltering/)
+
 ![Crowd Management System](./images/Crowd%20Management.png)
 
 
@@ -252,6 +262,9 @@ In order to have a stable hover in an Autolevel mode (Angle or Horizon) you need
 4. [Oscarliang](https://oscarliang.com)
 5. [cleanflight](http://cleanflight.com/)
 6. [OpenTX University Cleanflight Tutorial](http://open-txu.org/home/special-interests/multirotor/cleanflight-pid-tuning/)
+7. Bolei Zhou, Xiaoou Tang, and Xiaogang Wang. "Coherent Filtering :Detecting Coherent Motions from Crowd Clutters." Proceedings of 12th European Conference on Computer Vision (ECCV 2012) 
+
+
 
 ### Team members:
 
