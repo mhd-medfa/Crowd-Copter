@@ -1,6 +1,6 @@
 # Crowd-Copter
 
-[![Apache](https://img.shields.io/badge/License-Apache--2.0-red.svg)](https://opensource.org/licenses/Apache-2.0)
+[![MIT](https://img.shields.io/badge/MIT-red.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Flight Stack](https://img.shields.io/badge/Flight%20Stack-CleanFlight-green.svg)](http://cleanflight.com/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-3.4-red.svg)](https://pypi.org/project/opencv-python/)
 [![Python](https://img.shields.io/badge/Python-3.6-red.svg)](https://docs.python.org/release/3.6/)
@@ -264,6 +264,20 @@ In order to have a stable hover in an Autolevel mode (Angle or Horizon) you need
 6. [OpenTX University Cleanflight Tutorial](http://open-txu.org/home/special-interests/multirotor/cleanflight-pid-tuning/)
 7. Bolei Zhou, Xiaoou Tang, and Xiaogang Wang. "Coherent Filtering :Detecting Coherent Motions from Crowd Clutters." Proceedings of 12th European Conference on Computer Vision (ECCV 2012) 
 
+## Citing this work
+
+If you want to cite this work, use the following:
+
+Mohamad Al Mdfaa, Ahmad Al-Shalabi, Mhd Hasan Alganadi, Crowd Copter, GitHub repository, https://github.com/mhd-medfa/Crowd-Copter
+```bib
+@misc{MAH2017,
+  authors = {Mohamad Al Mdfaa, Ahmad Al-Shalabi, Mhd Hasan Alganadi},
+  title = {Crowd Copter},
+  year = {2016},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/mhd-medfa/Crowd-Copter}}
+  }
 
 
 ### Team members:
