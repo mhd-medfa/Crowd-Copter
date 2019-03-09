@@ -1,6 +1,6 @@
 # Crowd-Copter
 
-[![MIT](https://img.shields.io/badge/MIT-red.svg)](https://opensource.org/licenses/Apache-2.0)
+[![MIT License](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 [![Flight Stack](https://img.shields.io/badge/Flight%20Stack-CleanFlight-green.svg)](http://cleanflight.com/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-3.4-red.svg)](https://pypi.org/project/opencv-python/)
 [![Python](https://img.shields.io/badge/Python-3.6-red.svg)](https://docs.python.org/release/3.6/)
@@ -30,7 +30,7 @@ However, in this project, the experiments will be concentrated on people motions
 
 ### Demo
 
-[![Coherent Filter Demo](https://img.youtube.com/vi/cspiw41kw9k/0.jpg)](https://www.youtube.com/watch?v=cspiw41kw9k)
+[![Watch This Video](https://img.youtube.com/vi/cspiw41kw9k/0.jpg)](https://www.youtube.com/watch?v=cspiw41kw9k)
 
 
 
@@ -41,12 +41,12 @@ However, in this project, the experiments will be concentrated on people motions
 
 ### First Demo:
 
-[![Building and Tuning Flying Robot Demo](https://img.youtube.com/vi/OjXevO42mLg/0.jpg)](https://www.youtube.com/watch?v=OjXevO42mLg)
+[![Watch This Video](https://img.youtube.com/vi/OjXevO42mLg/0.jpg)](https://www.youtube.com/watch?v=OjXevO42mLg)
 
 
 
 ### Final Results:
-[![Drone Demo](https://img.youtube.com/vi/aL1qV6p7qkQ/0.jpg)](https://www.youtube.com/watch?v=aL1qV6p7qkQ)
+[![Watch This Video](https://img.youtube.com/vi/aL1qV6p7qkQ/0.jpg)](https://www.youtube.com/watch?v=aL1qV6p7qkQ)
 
 
 
@@ -252,7 +252,7 @@ Therefore the correct way to Calibrate is to use Accelerometer trims, which brin
 How to trim your Accelerometer
 In order to have a stable hover in an Autolevel mode (Angle or Horizon) you need to trim the Accelerometer. If you recall above the Accelerometer is not used in Acro mode. When you activate an Autolevel mode and your multirotor moves you need to trim your accelerometer as detailed below.
 
-[![Drone Demo](https://img.youtube.com/vi/aL1qV6p7qkQ/0.jpg)](https://www.youtube.com/watch?v=aL1qV6p7qkQ)
+[![Watch This Video](https://img.youtube.com/vi/aL1qV6p7qkQ/0.jpg)](https://www.youtube.com/watch?v=aL1qV6p7qkQ)
 
 ### References:
 
