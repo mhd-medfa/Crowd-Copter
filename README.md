@@ -18,6 +18,8 @@ However, in this project, the experiments will be concentrated on people motions
 
 ![Input vs Output](./images/fianlResult.png)
 
+### Demo
+
 [![Coherent Filter Demo](https://img.youtube.com/vi/cspiw41kw9k/0.jpg)](https://www.youtube.com/watch?v=cspiw41kw9k)
 
 
@@ -95,11 +97,9 @@ PCB Size: 41mm x 24mm
 Discharge Plugs: Male 3.5mm Bullet Connector
 Motor Plugs: Female 3.5mm Bullet Connector
 Weight: 35g
-#### [Where to buy](https://hobbyking.com/en_us/turnigy-multistar-30-amp-blheli-multi-rotor-brushless-esc-2-6s-v2-0.html)
-
 
 ### Fight Controller Software
-We depends on an Open-Source flight controller software which designed for modern flight boards
+We depends on an Open-Source flight controller software which designated for modern flight boards.
 
 ![flight controller software](./images/cleanflight-anim.gif)
 
