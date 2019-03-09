@@ -7,6 +7,8 @@ Crowds of people formed due to either a civil event or an emergency are one of t
 
 The goal of this project is to reduce those regrettable numbers of deaths and injuries by developing a system that consists of a camera fixed on Autonomous Navigatation Flying Robot to capture the scene, which connected to the Raspberry Pi 3 Model B Kit to analyze the captured scenes on the real time. We will be able to guide the people to continue their movement through the right and safe direction without impact or collision.
 
+![overview](./images/overview.png)
+
 Our system keeps track of moving keypoints to detect the coherent motion patterns in the scene.
 In our project, we implement a Coherent Neighbor Invariance, which characterizes the local spatiotemporal relationships of individuals in coherent motion. This Algorithm can work efficiently on scenes for mobile objects (people, cars, bicycles, animals, ..etc), which gives Coherent Filter many applications in different fields.
 
