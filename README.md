@@ -28,6 +28,31 @@ However, in this project, the experiments will be concentrated on people motions
 
 ![Input vs Output](./images/fianlResult.png)
 
+## Coherent Filter
+Detecting Coherent Motions from Crowd Clutters by implementing a Computer Vision Algorithm that called Coherent Filter.
+
+The objectives of this project are
+• revealing a prior called Coherent Neighbor Invariance underlying the coherent motions of particles;
+• proposing an effective technique called Coherent Filtering for coherent motion detection in noisy time-series data. 
+
+Coherent Neighbor Invariance characterizes the local spatiotemporal relationships of individuals in coherent motion.
+
+#### There are two key properties of Coherent Neighbor Invariance:
+
+Invariance of spatiotemporal relationships. The neighborship of individuals with coherent motions tends to remain invariant over time.
+Invariance of velocity correlations. The velocity correlations of neighboring individuals with coherent motions remain high when being average over time.
+
+Based on Coherent Neighbor Invariance, a clustering technique called Coherent Filtering is proposed for coherent motion deteciton from noisy time-series data. The core algorithm of Coherent Filtering is very simple, it consists three steps:
+find K nearest neigbhor set at each time.
+find the invariant neighbor and pairwise connection set.
+threshold pairwise connection set by the average velocity correlations, then generate connected components as the coherent motion clusters.
+
+### Technologies:
+Algorithms: Kanade–Lucas–Tomasi feature tracker, K-Nearest Neighbors and Coherent Neighbor Invariance
+
+
+Libraries and Programming Languages: Python3, Numpy, Pandas, OpenCV, Matplotlib
+
 ### Demo
 
 [![Watch This Video](https://img.youtube.com/vi/cspiw41kw9k/0.jpg)](https://www.youtube.com/watch?v=cspiw41kw9k)
