@@ -25,7 +25,6 @@ import numpy as np
 import cv2
 import video
 from common import anorm2, draw_str
-from time import clock
 
 lk_params = dict( winSize  = (20,20),
                   maxLevel = 2,
@@ -116,6 +115,6 @@ def FindTracks():
     #Tajectories=App(video_src).run()
     cv2.destroyAllWindows()
     return App(video_src).run()
-#if __name__ == '__main__':
-#    main()
-#FindTracks()
+    
+if __name__ == '__main__':
+    FindTracks()

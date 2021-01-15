@@ -53,6 +53,14 @@ Algorithms: Kanade–Lucas–Tomasi feature tracker, K-Nearest Neighbors and Coh
 
 Libraries and Programming Languages: Python3, Numpy, Pandas, OpenCV, Matplotlib
 
+### How To Run
+**platform: linux-64**
+You can use requirements.txt to create an environment using:
+`$ conda create --name crowd_copter --file requirements.txt`
+
+Then you are ready to go:
+`$python run.py`
+
 ### Demo
 
 [![Watch This Video](https://img.youtube.com/vi/cspiw41kw9k/0.jpg)](https://www.youtube.com/watch?v=cspiw41kw9k)
@@ -308,7 +316,7 @@ Mohamad Al Mdfaa, Ahmad Al-Shalabi, Mhd Hasan Alganadi, Crowd Copter, GitHub rep
 ### Team members:
 
 Mohamad Al Mdfaa
-Mohamad.AlMdfaa@yahoo.com
+mohamad.almdfaa@gmail.com
 
 Mhd Hasan Alganadi
 mhdhasanaljanady@gmail.com

@@ -38,11 +38,12 @@ from numpy import pi, sin, cos
 import cv2
 
 # built-in modules
-from time import clock
 
 # local modules
 from tst_scene_render import TestSceneRender
 import common
+import settings
+
 
 class VideoSynthBase(object):
     def __init__(self, size=None, noise=0.0, bg = None, **params):
@@ -168,6 +169,7 @@ presets = dict(
 def create_capture(source = 0, fallback = presets['chess']):
     '''source: <int> or '<int>|<filename>|synth [:<param_name>=<value> [:...]]'
     '''
+
     source = str(source).strip()
     chunks = source.split(':')
     # handle drive letter ('c:', ...)
@@ -189,7 +191,7 @@ def create_capture(source = 0, fallback = presets['chess']):
             pass
     else:
         
-        cap = cv2.VideoCapture('frame7%d.jpg')#(source)
+        cap = cv2.VideoCapture(settings.demo_dir)#(source)
         #cap = cap.get(4)
         if 'size' in params:
             w, h = map(int, params['size'].split('x'))
