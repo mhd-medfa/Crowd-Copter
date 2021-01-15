@@ -55,10 +55,13 @@ Libraries and Programming Languages: Python3, Numpy, Pandas, OpenCV, Matplotlib
 
 ### How To Run
 **platform: linux-64**
+
 You can use requirements.txt to create an environment using:
+
 `$ conda create --name crowd_copter --file requirements.txt`
 
 Then you are ready to go:
+
 `$python run.py`
 
 ### Demo
